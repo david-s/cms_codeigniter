@@ -1,0 +1,199 @@
+#newsletter_form {
+background: #e3e3e3;
+width: 20%;
+
+padding: 32px;
+border: 1px solid #d5d5d5;
+float:right;
+}
+
+#newsletter_form form input[type=text] {
+width: 100%;
+}
+
+h2 {
+margin-top: -54px;
+color: #aa2828;
+font-family: arial;
+}
+
+#newsletter_form input[type=submit] {
+border: 1px solid #c62828;
+background: #aa2828;
+color: #e3e3e3;
+padding: .5em;
+cursor: pointer;
+}
+
+#newsletter_form input[type=submit]:hover {
+background: #9a2222;
+}
+
+
+body {
+	background: #b6b6b6;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+#login_form {
+	width: 300px;
+	background: #f0f0f0 url(../img/login_bg.jpg) repeat-x 0 0;
+	border: 1px solid white;
+	margin: 114px auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;
+}
+h1,h2,h3,h4,h5 {
+	margin-top: 0;
+	font-family: arial black, arial;
+	text-align: center;
+}
+
+input[type=text], input[type=password] {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 280px;
+	border: 5px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1em;
+}
+
+input[type=submit], form a {
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	background: #348075;
+	color: white;
+	box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+
+}
+
+input[type=submit]:hover, form a:hover {
+	background: #287368;
+	cursor: pointer;
+}
+
+
+
+
+/* Validation error messages */
+
+.error {
+	color: #393939;
+	font-size: 15px;
+}
+
+fieldset {
+	width: 300px;
+	margin: auto;
+	margin-bottom: 2em;
+	display: block;
+}
+
+/* FOR FUN */
+
+h1 {
+	text-shadow: 0 1px 0 white;
+}
+
+/* Not necessary. Just the "tutorial created by" stuff at the bottom */
+
+#tutInfo {
+	background: #E3E3E3;
+border-top: 1px solid white;
+bottom: 0;
+width: 100%;
+padding: .7em .0em .7em 0em;
+margin-top: 30px;
+clear:both;
+
+}
+
+.pageCont{max-width:300px;
+margin: auto;
+padding: 30px;
+}
+
+#wrapper {
+	 max-width: 960px;
+	 min-width: 960px;
+	 margin: 0 auto;
+	
+	
+	}
+	
+	
+	#home2 {
+	 width: 600px;
+	
+	font-family: helvetica, arial;
+	float:left;
+	}
+
+	#container {
+	 width: 600px;
+	
+	font-family: helvetica, arial;
+	float:left;
+	margin-bottom:20px;
+	}
+
+	table {
+	 width: 600px;
+	 margin-bottom: 10px;
+	}
+
+	td {
+	 border-right: 1px solid #aaaaaa;
+	 padding: 1em;
+	}
+
+	td:last-child {
+	 border-right: none;
+	}
+
+	th {
+	 text-align: left;
+	 padding-left: 1em;
+	 background: #cac9c9;
+	border-bottom: 1px solid white;
+	border-right: 1px solid #aaaaaa;
+	}
+
+	#pagination a, #pagination strong {
+	 background: #e3e3e3;
+	 padding: 4px 7px;
+	 text-decoration: none;
+	border: 1px solid #cac9c9;
+	color: #292929;
+	font-size: 13px;
+	}
+
+	#pagination strong, #pagination a:hover {
+	 font-weight: normal;
+	 background: #cac9c9;
+	}		
+	
+	
+	#madeBy{
+		
+		
+		margin: 0px 0px 0px 100px;
+		
+	}
+	
+	
+	#contact_form {
+	width: 300px;
+	background: #f0f0f0 url(../img/login_bg.jpg) repeat-x 0 0;
+	border: 1px solid white;
+	margin: 100px auto 0;
+	padding: 1em;
+	-moz-border-radius: 3px;

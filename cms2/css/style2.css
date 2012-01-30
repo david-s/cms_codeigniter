@@ -1,0 +1,199 @@
+@font-face {
+	font-family: Fabrica;
+	src: url('Fabrica.otf');
+}
+@font-face {
+	font-family: kidkosmic;
+	src: url('Suplexmentary.ttf');
+}
+
+
+body, p, a, div, h1, h2, h3, h4, h5{
+	font-family: Fabrica;
+	
+}
+p{
+	font-size:14px;
+	color:#3b3a39;
+}
+h2{	font-family: kidkosmic;
+	color: orange;
+	
+}
+
+#pagewrap {
+	width:800px;
+	height:630px;
+	
+	margin: 0 auto;
+}
+#header{
+	width:800px;
+	height:110px;
+	border-bottom:solid;
+	border-width:1px;
+	border-bottom-color: orange;
+	margin-bottom:6px;
+	
+}
+#Logo{
+	float: left;
+	clear:both;
+}
+#Navigation{
+	float: right;
+	width:380px;
+	margin-right: 0px;
+	margin-top: 85px;
+	border-top:solid;
+	border-width:1px;
+	padding-top:4px;
+	border-top-color: orange;
+}
+.navi{
+	text-decoration: none;
+	color:orange;
+	margin-left:5px;
+	margin-right:15px;
+	padding:0px;
+}
+#slider{
+	width:800px;
+	height:217px;
+}
+#content{
+	width:800px;
+	height: auto;
+	display:block;
+	border-top:solid;
+	border-width:1px;
+	border-top-color: orange;
+	padding-top: 10px;
+	margin-top: 6px;
+}
+#content-left{
+	width: 400px;
+	height:260px;
+	margin-left:10px;
+	float: left;
+}
+#content-right{
+	width: 360px;
+	height:auto;
+	margin-right:30px;
+	float: right;
+}
+#footer{
+float:left;
+display:block;
+	width:800px;
+	height:130px;
+	border-top:solid;
+	border-width:1px;
+	border-top-color: orange;
+	
+	
+}
+.footer-left a{
+	text-decoration:none;
+	color:#ff6000;
+	
+}
+.footer-left{
+	font-size: 10px;
+	text-decoration:none;
+	color:#ff6000; 
+	
+}
+
+
+.twitted {
+	width: 16em;
+	margin-bottom: 1.5em;
+	border: 1px solid #888;
+	float:right;
+}
+
+.twitted h2 {
+	margin: 0;
+	padding: 0.3em 0.8em;
+	font-size: 1em;
+	color: #fff;
+	background-color: #888;
+}
+
+.twitted p.preLoader {
+	margin: 0;
+	padding: 1em 1em 1em 3em;
+	background: transparent url("loader.gif") 1em center no-repeat;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+.twitted ul#twitter_update_list {
+	margin: 0;
+	padding: 0 0.8em;
+	list-style-type: none;
+}
+
+.twitted ul#twitter_update_list li {
+	margin: 0;
+	padding: 0.8em 0 1em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.twitted ul#twitter_update_list li span {
+	/* tweet content */
+	display: block;
+}
+
+.twitted ul#twitter_update_list li span a {
+	/* links in tweet content */
+	color: #00f;
+}
+
+.twitted ul#twitter_update_list li a {
+	/* timestamp link */
+	color: #f00;
+}
+
+.twitted ul#twitter_update_list li.firstTweet {
+}
+
+.twitted ul#twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+.twitted p.profileLink {
+	display: block;
+	margin: 0;
+	padding: 0.3em 1em;
+	color: #fff;
+	background-color: #ddd;
+	font-size:11px;
+}
+
+.red{
+	
+	color:red;
+	
+}
+
+
+.blue{
+	
+	color:blue;
+	
+	
+}
+
+.tf-info{
+	
+	display: none;
+	
+}
+
+.twitter-friends{
+	
+	margin-left:15px;
+	
+}
